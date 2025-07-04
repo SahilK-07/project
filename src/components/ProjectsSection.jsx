@@ -3,32 +3,32 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "MeetEase",
+    description: "A real-time video calling web application enabling peer-to- peer communication.",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["React", "Material UI", "Web RTC"],
+    demoUrl: "https://apna-videocall-frontend.onrender.com/",
+    githubUrl: "https://github.com/ankityyyy/apna-videocall",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Airbnb",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "A web-based platform for listing and booking rental properties. The application allows users to perform CRUD operations for property listings and includes secure authentication for user accounts.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: [" MongoDB", "Node.js", "EJS"],
+    demoUrl: "https://wanderlust24-latest-2.onrender.com",
+    githubUrl: "https://github.com/ankityyyy/wanderlust24_latest",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "LinkedIn Platform",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "Built a full-featured LinkedIn clone using the MERN stack with user authentication, real-time posts, likes, comments, and profile management",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["React", "Redux", "Cloudinary"],
+    demoUrl: "https://linkedin-frontend-hi4w.onrender.com",
+    githubUrl: "https://github.com/ankityyyy/linkedin",
   },
 ];
 
@@ -100,7 +100,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/ankityyyy"
           >
             Check My Github <ArrowRight size={16} />
           </a>

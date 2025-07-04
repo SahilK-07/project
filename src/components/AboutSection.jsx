@@ -11,22 +11,21 @@ export const AboutSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & Tech Creator
+           <h3 className="text-2xl font-semibold">
+              Web Developer | Learning DevOps & DSA
+
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+              I recently completed a summer internship in web development, where I worked on building a chatbot and real-time communication features using technologies like Socket.IO. This experience strengthened my understanding of real-time web apps, backend integration, and interactive UI development.
+
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+             Currently, I'm focused on improving my Data Structures and Algorithms (DSA) skills and diving deeper into DevOps tools such as Docker, GitHub Actions, and CI/CD pipelines. I’m passionate about full-stack development and enjoy turning ideas into real-world projects that are scalable, functional, and user-friendly.
             </p>
+
+
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
               <a href="#contact" className="cosmic-button">
@@ -35,7 +34,7 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href=""
+                href="/Resume.pdf"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
@@ -50,10 +49,9 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Web Development</h4>
+                  <h4 className="font-semibold text-lg">Developed Full-Stack</h4>
                   <p className="text-muted-foreground">
-                    Creating responsive websites and web applications with
-                    modern frameworks.
+                    Applications using React, Node.js, and Tailwind CSS.
                   </p>
                 </div>
               </div>
@@ -64,10 +62,9 @@ export const AboutSection = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                  <h4 className="font-semibold text-lg">Socket.IO</h4>
                   <p className="text-muted-foreground">
-                    Designing intuitive user interfaces and seamless user
-                    experiences.
+                    Built real-time messaging features and live updates using Socket.IO.
                   </p>
                 </div>
               </div>
