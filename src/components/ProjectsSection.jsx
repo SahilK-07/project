@@ -4,8 +4,9 @@ const projects = [
   {
     id: 1,
     title: "MeetEase",
-    description: "A real-time video calling web application enabling peer-to- peer communication.",
-    image: "/projects/project1.png",
+    description:
+      "A real-time video calling web application enabling peer-to- peer communication.",
+    image:"/projects/project1.png",
     tags: ["React", "Material UI", "Web RTC"],
     demoUrl: "https://apna-videocall-frontend.onrender.com/",
     githubUrl: "https://github.com/ankityyyy/apna-videocall",
@@ -15,7 +16,7 @@ const projects = [
     title: "Airbnb",
     description:
       "A web-based platform for listing and booking rental properties. The application allows users to perform CRUD operations for property listings and includes secure authentication for user accounts.",
-    image: "/projects/project2.png",
+     image: "/projects/project2.png",
     tags: [" MongoDB", "Node.js", "EJS"],
     demoUrl: "https://wanderlust24-latest-2.onrender.com",
     githubUrl: "https://github.com/ankityyyy/wanderlust24_latest",
@@ -29,6 +30,37 @@ const projects = [
     tags: ["React", "Redux", "Cloudinary"],
     demoUrl: "https://linkedin-frontend-hi4w.onrender.com",
     githubUrl: "https://github.com/ankityyyy/linkedin",
+  },
+  {
+    id: 4,
+    title: "Amazon",
+    description:
+      "A secure e-commerce web app with OAuth 2.0 user authentication and role-based access.Users can browse products, add comments, manage their cart, and place orders.Admins can perform full CRUD operations on products and manage platform data",
+    image:"/projects/project4.png",
+    tags: ["oauth 2.0", "React", "Cloudinary"],
+    demoUrl: "",
+    githubUrl: "",
+  },
+
+  {
+    id: 5,
+    title: "Stock Trading ",
+    description:
+      "Real-time stock watchlist with donut chart visualization Dynamic holdings bar chart to track portfolio performance Simulated buy/sell stock functionality Secure user authentication and profile management Built with React.js, Node.js, Express.js, MongoDB,Context Api.",
+    image:"/projects/project5.png",
+    tags: [ "React", "CSS",'Chart'],
+    demoUrl: "",
+    githubUrl: "",
+  },
+  {
+    id: 6,
+    title: "Portfolio",
+    description:
+      "A modern and responsive personal portfolio showcasing my skills, projects, and experience.Built using React, Tailwind CSS, and deployed on platforms like Netlify.Features smooth animations, interactive UI, and sections like About, Projects, Contact, and Resume.",
+    image:"/projects/project6.png",
+    tags: [ "React", "Tailwind CSS"],
+    demoUrl: "https://neon-nasturtium-ec6760.netlify.app/",
+    githubUrl: "https://github.com/ankityyyy/portfolio",
   },
 ];
 
@@ -52,13 +84,17 @@ export const ProjectsSection = () => {
               key={key}
               className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
             >
-              <div className="h-48 overflow-hidden">
+              <div className="aspect-video overflow-hidden">
                 <img
                   src={project.image}
                   alt={project.title}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
               </div>
+              
+
+  
+
 
               <div className="p-6">
                 <div className="flex flex-wrap gap-2 mb-4">
