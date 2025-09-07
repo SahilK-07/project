@@ -12,7 +12,7 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
            <h3 className="text-2xl font-semibold">
-              Web Developer | Learning DevOps & DSA
+              Web Developer | Learning DSA
 
             </h3>
 
@@ -22,7 +22,7 @@ export const AboutSection = () => {
             </p>
 
             <p className="text-muted-foreground">
-             Currently, I'm focused on improving my Data Structures and Algorithms (DSA) skills and diving deeper into DevOps tools such as Docker, GitHub Actions, and CI/CD pipelines. I’m passionate about full-stack development and enjoy turning ideas into real-world projects that are scalable, functional, and user-friendly.
+             Currently, I'm focused on improving my Data Structures and Algorithms (DSA) skills. I’m passionate about full-stack development and enjoy turning ideas into real-world projects that are scalable, functional, and user-friendly.
             </p>
 
 
@@ -34,7 +34,7 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href="Resume-Ankt.pdf"
+                href="Resume-Sahil.docx"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV

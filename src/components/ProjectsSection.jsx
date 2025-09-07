@@ -21,37 +21,7 @@ const projects = [
     demoUrl: "https://wanderlust24-latest-2.onrender.com",
     githubUrl: "https://github.com/ankityyyy/wanderlust24_latest",
   },
-  {
-    id: 3,
-    title: "LinkedIn Platform",
-    description:
-      "Built a full-featured LinkedIn clone using the MERN stack with user authentication, real-time posts, likes, comments, and profile management",
-    image: "/projects/project3.png",
-    tags: ["React", "Redux", "Cloudinary"],
-    demoUrl: "https://linkedin-frontend-hi4w.onrender.com",
-    githubUrl: "https://github.com/ankityyyy/linkedin",
-  },
-  {
-    id: 4,
-    title: "Amazon",
-    description:
-      "A secure e-commerce web app with OAuth 2.0 user authentication and role-based access.Users can browse products, add comments, manage their cart, and place orders.Admins can perform full CRUD operations on products and manage platform data",
-    image:"/projects/project4.png",
-    tags: ["oauth 2.0", "React", "Cloudinary"],
-    demoUrl: "",
-    githubUrl: "",
-  },
-
-  {
-    id: 5,
-    title: "Stock Trading ",
-    description:
-      "Real-time stock watchlist with donut chart visualization Dynamic holdings bar chart to track portfolio performance Simulated buy/sell stock functionality Secure user authentication and profile management Built with React.js, Node.js, Express.js, MongoDB,Context Api.",
-    image:"/projects/project5.png",
-    tags: [ "React", "CSS",'Chart'],
-    demoUrl: "",
-    githubUrl: "",
-  },
+  
   {
     id: 6,
     title: "Portfolio",
