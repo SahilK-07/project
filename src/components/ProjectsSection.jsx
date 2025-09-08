@@ -19,7 +19,7 @@ const projects = [
      image: "/projects/project2.png",
     tags: [" MongoDB", "Node.js", "EJS"],
     demoUrl: "https://wanderlust24-latest-2.onrender.com",
-    githubUrl: "https://github.com/ankityyyy/wanderlust24_latest",
+    githubUrl: "https://github.com/SahilK-07/project",
   },
   
   {
